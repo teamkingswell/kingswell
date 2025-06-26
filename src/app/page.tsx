@@ -60,6 +60,14 @@ export default function Home() {
         {/* Center mail icon */}
         <Mail className="w-8 h-8 text-black transition-colors duration-300" />
       </a>
+      <br/>
+      <a
+        href="/kingswell-corporate-gifting.pdf" // Replace with the actual filename in your public folder
+        download
+        className="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-semibold rounded shadow hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-400"
+      >
+        Download PDF
+      </a>
 
       {/* Social Media Section */}
       <div className="flex items-center gap-8 mt-8">
