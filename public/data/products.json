@@ -1,0 +1,99 @@
+[
+  {
+    "id": "MP101",
+    "name": "Metal Click Pen",
+    "description": "Description 1",
+    "price": {
+      "min": 60,
+      "max": 100,
+      "currency": "INR"
+    },
+    "stock": {
+      "inStock": true,
+      "quantity": 100,
+      "moq": 50
+    },
+    "category": "Stationary",
+    "brand": "Parker",
+    "tags": ["Click Pen", "Parker", "Premium Pen", "Steel Pen"],
+    "vendor": {
+      "name": ".",
+      "contact": "."
+    },
+    "variants": [
+      { "color": "Grey", "size": "M", "material": "metal" },
+      { "color": "Black", "size": "M", "material": "metal" }
+    ]
+  },
+  {
+    "id": "MP102",
+    "name": "Lamy Safari Fountain Pen",
+    "description": "Pen used in most movies, with an iconic product image in the market and exceptional build quality",
+    "price": {
+      "min": 2500,
+      "max": 3200,
+      "currency": "INR"
+    },
+    "stock": {
+      "inStock": false,
+      "quantity": 100,
+      "moq": 50
+    },
+    "category": "Stationary",
+    "brand": "Lamy",
+    "tags": ["Safari", "Lamy Pen", "Fountain Pen", "Premium Pen"],
+    "vendor": {
+      "name": ".",
+      "contact": "."
+    },
+    "variants": [{ "color": "Grey", "size": "M", "material": "metal" }]
+  },
+  {
+    "id": "PD101",
+    "name": "Customizable Pendrive",
+    "description": "Pendrive available in variable storage capacities ranging from 16GB to 256GB",
+    "price": {
+      "min": 200,
+      "max": 350,
+      "currency": "INR"
+    },
+    "stock": {
+      "inStock": true,
+      "quantity": 100,
+      "moq": 50
+    },
+    "category": "Electronics",
+    "brand": "Custom",
+    "tags": ["Pendrive", "USB", "Custom Pendrive"],
+    "vendor": {
+      "name": ".",
+      "contact": "."
+    },
+    "variants": [{ "color": "Grey", "size": "M", "material": "metal" }]
+  },
+  {
+    "id": "BG110",
+    "name": "Faux Leather Office Bag",
+    "description": "Made with faux leather, this bag is perfect for office use, lightweight and durable",
+    "price": {
+      "min": 1300,
+      "max": 2000,
+      "currency": "INR"
+    },
+    "stock": {
+      "inStock": true,
+      "quantity": 100,
+      "moq": 50
+    },
+    "category": "Bags",
+    "brand": "Custom",
+    "tags": ["Bag", "Laptop Bag", "Sling Bag", "Faux Leather Bag"],
+    "vendor": {
+      "name": ".",
+      "contact": "."
+    },
+    "variants": [
+      { "color": "Coffee Tan", "size": "M", "material": "faux leather" }
+    ]
+  }
+]
